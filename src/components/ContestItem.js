@@ -14,9 +14,9 @@ export class ContestItem extends Component {
           />
           <div className="card-body">
             <h5 className="card-title">{name}</h5>
-            <div className="card-text my-1 ">Starts at : {start_time}</div>
-            <div className="card-text my-1">Ends at : {end_time}</div>
-            <div className="card-text my-1">Duration : {duration}</div>
+            <div className="card-text my-1 ">Starts at : {new Date(start_time).toLocaleString()}</div>
+            <div className="card-text my-1">Ends at : {new Date(end_time).toLocaleString()}</div>
+            <div className="card-text my-1">Duration : {duration/3600} hrs</div>
             <a href={url} className="btn btn-primary my-2">
               Go To Contest
             </a>
