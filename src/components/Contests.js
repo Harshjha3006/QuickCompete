@@ -13,7 +13,7 @@ export class Contests extends Component {
     this.setState({
       loading : true
     })
-    let data = await fetch("https://kontests.net/api/v1/codeforces");
+    let data = await fetch(`https://kontests.net/api/v1/${this.props.category}`);
     let parsedData = await data.json();
     this.setState({
       contests : parsedData,
@@ -21,10 +21,14 @@ export class Contests extends Component {
     });
 
   }
+  format = (text)=>{
+     text = text.replace(/[^a-zA-Z]/g,"");
+     return text[0].toUpperCase() + text.slice(1);
+  }
   render() {
     return (
       <>
-      <div className="container"><h1 className = "text-center">CodeForces Contests</h1></div>
+      <div className="container"><h1 className = "text-center">{this.format(this.props.category)} Contests</h1></div>
       {this.state.loading && <Spinner/>}
       <div className="container" style = {{display : 'grid',
       gridTemplateColumns : 'repeat(auto-fit,minmax(375px,1fr))',
