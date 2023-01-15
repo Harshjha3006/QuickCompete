@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Get the Latest Updates About Latest Coding Contests through this website.
 
 ## Available Scripts
 
