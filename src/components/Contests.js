@@ -33,7 +33,7 @@ export class Contests extends Component {
   render() {
     return (
       <>
-      <div className="container"><h1 className = "text-center">{this.format(this.props.category)} Contests</h1></div>
+      <div className="container"><h1 className = "text-center" style = {{marginTop : '60px'}}>{this.format(this.props.category)} Contests</h1></div>
       {this.state.loading && <Spinner/>}
       <div className="container" style = {{display : 'grid',
       gridTemplateColumns : 'repeat(auto-fit,minmax(375px,1fr))',
