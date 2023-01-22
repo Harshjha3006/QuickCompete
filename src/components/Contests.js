@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ContestItem from "./ContestItem";
 import Spinner from "./Spinner";
+
 export class Contests extends Component {
   constructor(){
     super();
@@ -10,15 +11,19 @@ export class Contests extends Component {
     }
   }
   async componentDidMount(){
+    this.props.setProgress(10);
     this.setState({
       loading : true
     })
     let data = await fetch(`https://kontests.net/api/v1/${this.props.category}`);
+    this.props.setProgress(30);
     let parsedData = await data.json();
+    this.props.setProgress(80);
     this.setState({
       contests : parsedData,
       loading : false
     });
+    this.props.setProgress(100);
 
   }
   format = (text)=>{
