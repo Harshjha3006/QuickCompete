@@ -1,8 +1,6 @@
-import React, { Component } from "react";
-
-export class ContestItem extends Component {
-  render() {
-    let { name, url, start_time, end_time, duration } = this.props;
+import React from "react";
+const ContestItem = (props)=>{
+    let { name, url, start_time, end_time, duration } = props;
     return (
       <>
         <div className="card" style = {{width : '21rem'}} >
@@ -24,7 +22,6 @@ export class ContestItem extends Component {
         </div>
       </>
     );
-  }
 }
 
 export default ContestItem;

@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 import {Link} from 'react-router-dom'
-export class Navbar extends Component {
-  render() {
+const Navbar = ()=> {
     return (
       <>
         <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top " >
@@ -37,7 +36,6 @@ export class Navbar extends Component {
 </nav>
       </>
     )
-  }
 }
 
-export default Navbar
+export default Navbar;
