@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Contests from './components/Contests';
 import LoadingBar from 'react-top-loading-bar'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route
 } from 'react-router-dom'
