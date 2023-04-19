@@ -6,8 +6,8 @@ It is built to help programmers who want to get latest updates about contests on
 
 ## Built using
 
-- ![REACT JS](./common%20images/icons8-react-40.png) React Js
-- ![BOOTSTRAP](./common%20images/icons8-bootstrap-48.png) BootStrap
+- <img src = "./common images/icons8-react-40.png" alt = "React Js">React Js
+- <img src = "./common images/icons8-bootstrap-48.png" alt = "BootStrap"> BootStrap
 
 ## Demonstration Video(Pending)
 
