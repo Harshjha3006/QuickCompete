@@ -1,4 +1,17 @@
-#Get the Latest Updates About Latest Coding Contests through this website.
+# QuickCompete
+
+### Get the Latest Updates About Coding Contests through this web based application!.<br/>
+
+It is built to help programmers who want to get latest updates about contests on different platforms like CodeForces,Hackerrank,etc.
+
+## Built using
+
+- ![REACT JS](./common%20images/icons8-react-40.png) React Js
+- ![BOOTSTRAP](./common%20images/icons8-bootstrap-48.png) BootStrap
+
+## Demonstration Video(Pending)
+
+![]
 
 ## Available Scripts
 
