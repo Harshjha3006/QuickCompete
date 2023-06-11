@@ -72,7 +72,7 @@
 
 <div >
 <br>
-<img src = "./src/img/website screenshot.png"></img>
+<img src = "./src/img/website screenshot.png" height = "500" width = "900"></img>
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,6 +119,13 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 
 ## How To Use
+
+Here's a demo video showing how you can use QuickCompete:
+
+### Demo Video
+
+<br>
+<img src = "./src/img/demo.gif" width = "700",height = "700"></img>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,3 +196,4 @@ Project Link: [https://github.com/Harshjha3006/QuickCompete](https://github.com/
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com
+[def]: https://github.com/Harshjha3006/QuickCompete/src/img/demo.gif

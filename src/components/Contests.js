@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ContestItem from "./ContestItem";
 import Spinner from "./Spinner";
-import "../App.css"
 
 const Contests = (props) => {
   let [contests, setContests] = useState([]);
