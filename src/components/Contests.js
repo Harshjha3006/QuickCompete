@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ContestItem from "./ContestItem";
 import Spinner from "./Spinner";
+import "../App.css"
 
 const Contests = (props) => {
   let [contests, setContests] = useState([]);
@@ -27,7 +28,7 @@ const Contests = (props) => {
   }
   return (
     <>
-      <div className="container"><h1 className="text-center" style={{ marginTop: '60px' }}>{format(props.category)} Contests</h1></div>
+      <div className="container " ><h1 className="text-center" style={{ marginTop: '60px' }}>{format(props.category)} Contests</h1></div>
       {loading && <Spinner style={{ backgroundColor: "blue" }} />}
       <div className="container" style={{
         display: 'grid',
