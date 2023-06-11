@@ -78,6 +78,7 @@
 
 - [![React][React.js]][React-url]
 - [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+- <a href = "https://kontests.net/api">KONTESTS API</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
